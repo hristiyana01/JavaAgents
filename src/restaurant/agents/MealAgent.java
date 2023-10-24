@@ -1,4 +1,10 @@
 package restaurant.agents;
 
-public class MealAgent {
+import jade.core.Agent;
+
+public class MealAgent extends Agent {
+    @Override
+    protected void setup() {
+        super.setup();
+    }
 }
