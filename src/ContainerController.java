@@ -1,2 +1,3 @@
-public class ContainerController extends java.lang.Object{
+import java.lang.Object;
+public class ContainerController extends Object{
 }
