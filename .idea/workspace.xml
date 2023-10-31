@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b153c6bf-19b0-48cf-94f5-b7f06fc9b976" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/creator/CreateNewAgent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APDescription.txt" beforeDir="false" afterPath="$PROJECT_DIR$/APDescription.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ContainerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreateNewAgent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/restaurant/agents/MealAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/restaurant/agents/MealAgent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/restaurant/meal/CookRecipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/restaurant/meal/CookRecipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/restaurant/meal/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/restaurant/meal/Ingredient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,26 +38,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Tom">
-    <configuration name="Tom" type="Application" factoryName="Application">
+}</component>
+  <component name="RunManager" selected="Application.createdAgent">
+    <configuration name="createdAgent" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="jade.Boot" />
       <module name="JavaAgents" />
-      <option name="PROGRAM_PARAMETERS" value="-gui Tom:hello.Agent001" />
+      <option name="PROGRAM_PARAMETERS" value="-gui CreateNewAgent:creator.CreateNewAgent" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
@@ -63,10 +70,27 @@
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration name="Unnamed" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" temporary="true">
+      <module name="JavaAgents" />
+      <settings run-config-name="Unnamed" include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>class</selection-scope>
+        <selected-element key="" />
+      </settings>
+      <method v="2">
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Tom" />
+      <item itemvalue="Application.createdAgent" />
+      <item itemvalue="Diffblue Cover.Unnamed" />
       <item itemvalue="JAR Application.Unnamed" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Diffblue Cover.Unnamed" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -77,6 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1698035365654</updated>
       <workItem from="1698035366731" duration="4591000" />
+      <workItem from="1698644505086" duration="9143000" />
     </task>
     <servers />
   </component>
