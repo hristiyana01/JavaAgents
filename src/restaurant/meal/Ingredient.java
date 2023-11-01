@@ -1,7 +1,6 @@
 package restaurant.meal;
 
 public class Ingredient {
-    //ime, merni edinici,
     public String name;
     public String unitOfMeasure;
     public double measure;
