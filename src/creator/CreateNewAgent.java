@@ -16,9 +16,11 @@ public class CreateNewAgent extends Agent {
     protected void setup() {
         System.out.println("My local name is " + getLocalName());
         System.out.println("Hello World! My name is " + getAID());
+        System.out.println("-------------------------------");
         String name = "Tom";
         ContainerController c = getContainerController();
         try {
+            //new agent creation
             AgentController a = c.createNewAgent(name, "hello.Agent001", null);
             a.start();
         } catch (Exception e) {

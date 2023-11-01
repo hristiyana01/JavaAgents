@@ -1,10 +1,11 @@
 package restaurant.meal;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class CookRecipe {
     public String name;
-    public List<Ingredient> ingredientsList;
+    public List<Ingredient> ingredientsList = new ArrayList<>();
     public String instructions;
     public void addIngredient(Ingredient nextIngredient) {
         ingredientsList.add(nextIngredient);
@@ -37,14 +38,23 @@ public class CookRecipe {
     public void setIngredientsList(List<Ingredient> ingredientsList) {
         this.ingredientsList = ingredientsList;
     }
+//    @Override
+//    public String toString() {
+//        StringBuilder recipeString = new StringBuilder();
+//        recipeString.append(name).append("\nIngredients:\n");
+//        for (Ingredient ingredient : ingredientsList) {
+//            recipeString.append(ingredient).append("\n");
+//        }
+//        recipeString.append("Instructions:\n").append(instructions);
+//        return recipeString.toString();
+//    }
+
     @Override
     public String toString() {
-        StringBuilder recipeString = new StringBuilder();
-        recipeString.append(name).append("\nIngredients:\n");
-        for (Ingredient ingredient : ingredientsList) {
-            recipeString.append(ingredient).append("\n");
-        }
-        recipeString.append("Instructions:\n").append(instructions);
-        return recipeString.toString();
+        return "CookRecipe{" +
+                "name='" + name + '\'' +
+                ", ingredientsList=" + ingredientsList +
+                ", instructions='" + instructions + '\'' +
+                '}';
     }
 }
