@@ -1,5 +1,6 @@
 package restaurant.agents;
 
+import ExerciseTest.AgentBehaviour;
 import jade.core.Agent;
 import restaurant.meal.CookRecipe;
 import restaurant.meal.Ingredient;
@@ -10,6 +11,8 @@ public class MealAgent extends Agent {
 
     protected void setup() {
         CookRecipe appleCookiesRecipe = new CookRecipe("Apple Cookies");
+        addBehaviour(new AgentBehaviour(this));
+        
 
         appleCookiesRecipe.addIngredient(new Ingredient(1, "(12-ounce) package", "frozen escalloped apples"));
         appleCookiesRecipe.addIngredient(new Ingredient(1, "cup", "granulated sugar"));
