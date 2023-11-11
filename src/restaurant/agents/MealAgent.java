@@ -12,7 +12,7 @@ public class MealAgent extends Agent {
     protected void setup() {
         CookRecipe appleCookiesRecipe = new CookRecipe("Apple Cookies");
         addBehaviour(new AgentBehaviour(this));
-        
+
 
         appleCookiesRecipe.addIngredient(new Ingredient(1, "(12-ounce) package", "frozen escalloped apples"));
         appleCookiesRecipe.addIngredient(new Ingredient(1, "cup", "granulated sugar"));
