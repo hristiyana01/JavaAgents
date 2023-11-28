@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b153c6bf-19b0-48cf-94f5-b7f06fc9b976" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/restaurant/agents/EntryRecipeAgent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/restaurant/agents/EntryRecipeAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/restaurant/agents/EntryRecipeAgent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +103,7 @@
       <workItem from="1700163907415" duration="1562000" />
       <workItem from="1700295082963" duration="3000" />
       <workItem from="1700370268291" duration="10000" />
-      <workItem from="1701172568543" duration="1093000" />
+      <workItem from="1701172568543" duration="2301000" />
     </task>
     <servers />
   </component>
